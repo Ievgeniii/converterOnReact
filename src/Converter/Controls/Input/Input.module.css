@@ -1,0 +1,30 @@
+.Input {
+    width: 100%;
+    margin: 40px 0 0 0;
+    transition: all .3s;
+}
+
+input {
+    padding: 0 15px;
+    font-size: inherit;
+    width: 100%;
+    border: none;
+    height: 50px;
+    box-sizing: border-box;
+    outline: none;
+}
+input:focus {
+    background: #d6e5ff;
+}
+::placeholder {
+    color: black;
+}
+@media only screen and (min-width: 768px) {
+    .Input {
+        width: 25%;
+        margin: 20px 10px 20px;
+    }
+    .Input:hover {
+        transform: scale(1.1);
+    }
+}

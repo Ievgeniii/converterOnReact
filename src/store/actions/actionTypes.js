@@ -1,0 +1,3 @@
+export const GET_CURRENCIES = 'GET_CURRENCIES';
+export const COUNT_RESULT = 'COUNT_RESULT';
+export const MAKE_CHART = 'MAKE_CHART';

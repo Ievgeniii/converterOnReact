@@ -1,0 +1,26 @@
+.Currency {
+    width: 100%;
+    margin: 10px 0 0 0;
+    transition: all .3s;
+}
+
+select {
+    padding: 10px;
+    font-size: inherit;
+    width: 100%;
+    border: none;
+    height: 50px;
+    outline: none;
+}
+select:focus {
+    background: #d6e5ff;
+}
+@media only screen and (min-width: 768px) {
+    .Currency {
+        width: 25%;
+        margin: 20px 10px 20px;
+    }
+    .Currency:hover {
+        transform: scale(1.1);
+    }
+}
